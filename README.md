@@ -89,7 +89,7 @@ EJEMPLO:
 RESPUESTA ESPERADA:
 ```{"users":[{"id":1,"username":"emilys","email":"emily.johnson@x.dummyjson.com","firstName":"Emily","lastName":"Johnson","gender":"female","image":"https://dummyjson.com/icon/emilys/128"},{"id":2,"username":"michaelw","email":"michael.williams@x.dummyjson.com","firstName":"Michael","lastName":"Williams","gender":"male","image":"https://dummyjson.com/icon/michaelw/128"},{"id":3,"username":"sophiab","email":"sophia.brown@x.dummyjson.com","firstName":"Sophia","lastName":"Brown","gender":"female","image":"https://dummyjson.com/icon/sophiab/128"},{"id":4,"username":"jamesd","email":"james.davis@x.dummyjson.com","firstName":"James","lastName":"Davis","gender":"male","image":"https://dummyjson.com/icon/jamesd/128"},etc}```
 
-##6 Explicación de guardade de entidad login_log
+## 6 Explicación de guardade de entidad login_log
 
 cuando realizamos la peticion tipo POST al endpoint /api/auth/login, la aplicación conviert el request body al dto UserRequest,
 la cual contiene los siguientes atributos.
