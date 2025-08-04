@@ -25,7 +25,7 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 ## 2. Ejecutar la aplicación
 
-./mvnw spring-boot:run
+```./mvnw spring-boot:run```
 
 O si estás usando un IDE como IntelliJ o Eclipse, ejecuta la clase principal del proyecto FeingClientApplication.
 
